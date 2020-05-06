@@ -9,6 +9,8 @@
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+    <link rel="stylesheet" href="./my.css" />
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,55 +18,112 @@
 </head>
 <body>
 
-  Try It Free
+    <header>
+        <img class="logo" src="https://fervent-mayer-36e64f.netlify.com/huddle-landing-page/images/logo.svg" alt="logo" />
+        <button class="btn">
+            Try It Free
+        </button>
+    </head>
 
-  Build The Community Your Fans Will Love
+    <div class="intro">
+        <div class="blurb">
+        Build The Community Your Fans Will Love
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+        Create connections with your users as you engage in genuine discussion. 
+        <div> <button class="introCallToAction"> Get  Started For Free</button></div>
+        </div>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+                <div>
+                    <img class="header-img" src="https://fervent-mayer-36e64f.netlify.com/huddle-landing-page/images/illustration-mockups.svg" alt="mockups" />
+                </div>
 
-  Get Started For Free
+    </div>
 
-  Grow Together
+    <div class="container">
+    <div class="flex">
+        <div class="blurb">
+        <h2> Grow Together </h2>
+        <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. </p>
+        </div>
+        <div class="blurbimg">
+            <img src="https://fervent-mayer-36e64f.netlify.com/huddle-landing-page/images/illustration-grow-together.svg" alt="grow-together" />
+        </div>
+    </div>
 
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+    <div class="flex">
+        <div class="blurbimg">
+            <img src="https://fervent-mayer-36e64f.netlify.com/huddle-landing-page/images/illustration-flowing-conversation.svg" alt="flowing-conversation" />
+        </div>
+        <div class="blurb">
+        <h2> Flowing Conversations </h2>
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
   have just-in-time loading for a more natural flow.
+        </div>
+    </div>
 
-  Your Users
+    <div class="flex">
+        <div class="blurb">
+        <h2> Your Users </h2>
 
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
+        <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
   This means, once signed in to your app, your users can start chatting immediately.
+        </div>
+        <div class="blurbimg">
+            <img src="https://fervent-mayer-36e64f.netlify.com/huddle-landing-page/images/illustration-your-users.svg" alt="users" />
+        </div>
+    </div>
 
-  Ready To Build Your Community?
+    <div class="flex callOut">
+        <div class="col-md-4">
+          Ready To Build Your Community?
+          <div><button> Get Started For Free </button> </div>
+        </div>
+    </div>
 
-  Get Started For Free
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
+  </div> <!-- end container -->
 
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+  <div class="row">
+      <div class="col-md-3">
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna aliqua
+        <li>+1-543-123-4567
+        <li>example@huddle.com
+      </ul>
+      </div>
+    
+      <div class="col-md-3">
+          <ul>
+              <li>About Us
+              <li>What We Do
+              <li>FAQ
+          </ul>
+      </div>
+    
+      <div class="col-md-3">
+        <ul>
+        <li> Career
+        <li> Blog
+        <li> Contact Us
+        </ul>
+      </div>
+    
+      <div class="col-md-3">
+      &copy; Copyright 2018 Huddle. All rights reserved.
+      </div>
+
+
+    <div class="col-md-3">
+        <ul class="social-media">
+            <li><a class="circle" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a class="circle" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="circle" href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    </div> <!-- end div row -->
   </footer>
+
 </body>
 </html>
