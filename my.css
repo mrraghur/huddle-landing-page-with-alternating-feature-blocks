@@ -6,8 +6,24 @@ body {
 .container {
   width: 80%;
   margin: auto auto;
-
+  /*border: solid 1px red;*/
+  margin-bottom: 10px;
 }
+
+
+nav{   overflow: hidden; } 
+nav div{   float: left; }  
+nav .btn{   border-radius: 50px;   
+background-color: white;   
+/*border:1px solid black;   */
+padding: 10px; } 
+
+.introbutton {
+         float :right;
+}
+
+.container {   width: 80%;   margin: auto;   padding:15px; } 
+.logo{   width: 100%; }
 
 .social-media li {
     list-style:none;
@@ -16,18 +32,61 @@ body {
     margin-left : 9px;
 }
 
-.intro .blurb {
-   width: 30%;
+.introcontainer {
+   background-color: #80b8e8;
 }
 
-.intro .img {
-   width: 30%;
+
+.intro {
+    display:flex;
+    border: solid 1px red;
+    padding: 3px;
 }
+
+.intro .blurb {
+   width: 40%;
+   border: solid 1px blue;
+
+    text-align: center;
+    position: relative; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    margin: auto; 
+    /*
+    -webkit-transform: translateY(-50%); 
+    -ms-transform: translateY(-50%); 
+    */
+
+
+}
+
+.intro .imgdiv {
+    width: 60%;
+    padding: 20px;
+    border: solid 1px green;
+}
+
+.intro img {
+   width: 100%;
+}
+
+.introButtonDiv {
+    /*
+    margin: auto auto ;
+    padding: 3px;
+    border: solid 1px blue;
+    */
+}
+
+
+
+
 .introCallToAction {
     background-color: #bd268f;
     padding: 16px;
-    margin: 16px auto ;
+    margin: auto auto ;
     border-radius: 25px;
+    border: solid 1px green;
 } 
 
 
@@ -39,6 +98,7 @@ body {
  margin-bottom: 10px;
  padding: 10px;
  box-shadow: 5px  #aaaaaa;
+ display: flex;
 }
 
 .flex .blurb {
@@ -49,7 +109,10 @@ body {
   width: 30%;
   display: inline-block;
   overflow: none;
-  display:none;
+}
+
+.flex img {
+  width: 100%;
 }
 
 .callOut {
@@ -65,11 +128,22 @@ body {
     border-radius: 25px;
 } 
 
-footer .col-md-3 {
+ul li{
+  list-style-type: none;
+}
+
+footer {
+  display: flex;
+
+}
+
+
+footer .footercolumn {
   width: 23%;
   display: inline-block;
   padding: 2px; 
   margin: 2px;
+  list-style-type: none;
   /*How do I align it to the top instead of bottom?*/
 }
 
