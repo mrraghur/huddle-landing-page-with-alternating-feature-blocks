@@ -1,3 +1,7 @@
+* {
+   font-family: "Barlow", sans-serif;
+}
+
 body {
 
 
@@ -39,31 +43,30 @@ padding: 10px; }
 
 .intro {
     display:flex;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
     padding: 3px;
 }
 
 .intro .blurb {
    width: 40%;
-   border: solid 1px blue;
-
+   /*border: solid 1px blue;*/
     text-align: center;
     position: relative; 
     top: 50%; 
     transform: translateY(-50%); 
     margin: auto; 
+    padding:15px;
     /*
     -webkit-transform: translateY(-50%); 
     -ms-transform: translateY(-50%); 
     */
-
-
 }
 
 .intro .imgdiv {
     width: 60%;
     padding: 20px;
-    border: solid 1px green;
+    text-align: right;
+    /*border: solid 1px green;*/
 }
 
 .intro img {
@@ -101,40 +104,57 @@ padding: 10px; }
  display: flex;
 }
 
-.flex .blurb {
-  width: 50%;
-}
-
-.flex .blurbimg {
-  width: 30%;
-  display: inline-block;
-  overflow: none;
-}
-
 .flex img {
   width: 100%;
 }
+
+.flex .blurb {
+   width: 40%;
+   /*border: solid 1px blue;*/
+    text-align: center;
+    padding:15px;
+}
+
+.flex .blurbimg {
+   width: 60%;
+   /*border: solid 1px blue;*/
+    text-align: center;
+    padding:15px;
+}
+
 
 .callOut {
     width: 33%;
     margin: auto;
     height: 90px;
+    text-align:center;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid 1px #eee;
+    font-weight: bold;
+}
+
+.callOutButtonDiv{
+
+
 }
 
 .callOut button {
     background-color: #bd268f;
-    padding: 16px;
+    padding: 15px 56px;
     margin: 16px auto ;
     border-radius: 25px;
+    color: #fff;
 } 
 
-ul li{
-  list-style-type: none;
+span {
+  padding-bottom: 8px;
 }
 
 footer {
   display: flex;
-
+  background-color: #111;
+  color: #eee;
 }
 
 
@@ -147,6 +167,25 @@ footer .footercolumn {
   /*How do I align it to the top instead of bottom?*/
 }
 
+span {
+ padding-bottom: 16px;
+ display:block;
+}
 
+.social-media span{
+   display:inline-block;
+   border:1px solid white;
+   border-radius: 50%;
+   padding: 1px 2px;
+}
+
+.social-media a{
+  color: white;
+}
+
+.copyright {
+        text-align: right;
+        padding-top: 10px;
+}
 
 

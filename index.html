@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link href="https://fonts.googleapis.com/css?family=Barlow:500,600,700%7CHeebo:400,500,500i,900&amp;display=fallback" rel="stylesheet">
+
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -31,20 +33,6 @@
         </nav>     
 </header>
 
-
-    <div class="introcontainer">
-    <header class="container">
-            <nav>
-        <div style="width : 170px;">
-        <img class="logo" src="https://fervent-mayer-36e64f.netlify.com/huddle-landing-page/images/logo.svg" alt="logo" />
-        </div>
-        <div class="introbutton">
-        <button class="btn">
-            Try It Free 2
-        </button>
-        </div>
-            </nav>
-    </header>
 
     <div class="intro container">
         <div class="blurb introButtonDiv">
@@ -93,10 +81,10 @@
         </div>
     </div>
 
-    <div class="flex callOut">
+    <div class="callOut">
         <div class="col-md-4">
           Ready To Build Your Community?
-          <div><button> Get Started For Free </button> </div>
+          <div class="callOutButtonDiv"><button> Get Started For Free </button> </div>
         </div>
     </div>
 
@@ -104,45 +92,51 @@
   </div> <!-- end container -->
 
   <footer>
-  <div class="row">
+  <div class="container">
       <div class="footercolumn">
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-      incididunt ut labore et dolore magna aliqua
-        <li>+1-543-123-4567
-        <li>example@huddle.com
-      </ul>
+      <span>
+        <span><img src="https://fervent-mayer-36e64f.netlify.com/huddle-landing-page/images/logo%20white.svg" alt="logo" /></span>
+        <span><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  </span>
+        incididunt ut labore et dolore magna aliqua </span>
+<span><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;+1-543-123-4567 </span>
+                <span><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;example@huddle.com </span>
+      </span>
       </div>
     
       <div class="footercolumn">
-          <ul>
-              <li>About Us
-              <li>What We Do
-              <li>FAQ
-          </ul>
+          <span>
+                  <span>About Us </span>
+                  <span>What We Do </span>
+                  <span>FAQ </span>
+          </span>
       </div>
     
       <div class="footercolumn">
         <span>
-        <li> Career
-        <li> Blog
-        <li> Contact Us
+                <span> Career </span>
+                <span> Blog </span>
+                <span> Contact Us </span>
         </span>
       </div>
     
-      <div class="footercolumn">
+
+
+    <div class="footercolumn">
+        <span class="social-media">
+            <span><a class="circle" href="#"><i class="fab fa-facebook-f"></i></a></span>
+            <span><a class="circle" href="#"><i class="fab fa-twitter"></i></a></span>
+            <span><a class="circle" href="#"><i class="fab fa-instagram"></i></a></span>
+        </span>
+    </div>
+
+      <div class="copyright">
+      &copy; Copyright 2018 Huddle. All rights reserved.
+      </div>
+      <div class="copyright2">
       &copy; Copyright 2018 Huddle. All rights reserved.
       </div>
 
-
-    <div class="col-md-3">
-        <ul class="social-media">
-            <li><a class="circle" href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a class="circle" href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a class="circle" href="#"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-    </div>
-    </div> <!-- end div row -->
+    </div> <!-- end div container -->
   </footer>
 
 </body>
